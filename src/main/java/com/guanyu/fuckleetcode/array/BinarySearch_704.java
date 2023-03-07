@@ -29,7 +29,7 @@ package com.guanyu.fuckleetcode.array;
  * 3. 左右指针更新后的取值问题：首先我们明确一个先决条件，那就是mid的取值，一定是合法的数组元素位置；那么当nums[mid] > target的时候,此时right = mid(由于是右开区间，mid不会被下重复扫描);
  *    当nums[mid] < target，left = mid + 1(由于是左闭区间，left必须在mid的基础上+1，否则mid可能会被重复扫描)
  **/
-public class BinarySearch {
+public class BinarySearch_704 {
     /**
      * 左闭右闭
      * @param nums
